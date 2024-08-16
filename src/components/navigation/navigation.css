@@ -1,0 +1,14 @@
+h1 {
+  color: skyblue;
+  font-size: 2rem;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  padding: 1.5rem 6rem;
+  border-bottom: 1px solid gray;
+}
