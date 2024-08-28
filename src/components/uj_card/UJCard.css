@@ -1,0 +1,27 @@
+.image-styling {
+  width: 16rem;
+  height: 8rem;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.margin-tb-8px {
+  margin: 8px 0;
+}
+
+.grey-color {
+  color: grey;
+}
+
+.ujc_container {
+  border-radius: 10px;
+}
+
+.ujc_button {
+  cursor: pointer;
+  padding: 10px 1rem;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  background-color: #4cabd1;
+}

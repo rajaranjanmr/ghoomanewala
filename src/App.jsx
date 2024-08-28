@@ -1,12 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Home } from "./components/home/Home";
 import { AboutUs } from "./components/AboutUs";
 import { Services } from "./components/Services";
 import { ContactUs } from "./components/ContactUs";
 import { TermsAndConditions } from "./components/TermsAndConditions";
-import { Navigation } from "./components/navigation/Navigation";
-import { Footer } from "./components/footer/Footer";
+import { Footer, Navigation } from "./components";
+import { Home, UpcomingJourneys } from "./pages";
 import "./App.css";
 
 const App = () => {
@@ -17,6 +16,7 @@ const App = () => {
           <Navigation />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/upcoming-journeys" element={<UpcomingJourneys />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact-us" element={<ContactUs />} />
