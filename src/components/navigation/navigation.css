@@ -1,5 +1,4 @@
 nav h1 {
-  color: skyblue;
   font-size: 2rem;
   margin: 0;
 }
@@ -11,4 +10,20 @@ a {
 .nav {
   padding: 1.5rem 6rem;
   border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+}
+
+.color_skyblue {
+  color: skyblue;
+}
+
+.nav_items {
+  font-size: 1.1rem;
+  margin-left: auto;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
