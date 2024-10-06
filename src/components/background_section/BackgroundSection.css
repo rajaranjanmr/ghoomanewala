@@ -2,30 +2,29 @@
 .background-section {
   position: relative;
   width: 100%;
-  height: 50vh; /* Full viewport height */
+  height: 50vh;
   background: url("../../assets/travel_tourism.jpg") no-repeat center center;
-  background-size: cover; /* Cover the entire viewport */
-  background-attachment: fixed; /* Optional: keeps the background fixed during scroll */
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff; /* Text color to contrast with the background */
+  color: #fff;
   text-align: center;
 }
 
-/* Optional overlay to make text more readable */
 .background-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
+  background: rgba(0, 0, 0, 0.65);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #fff; /* Text color for overlay */
+  color: #fff;
 }
 
 .background-section h1 {
@@ -41,7 +40,7 @@
 .background-section button {
   background-color: #007bff;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   color: #fff;
   padding: 10px 20px;
   font-size: 1rem;
@@ -50,5 +49,5 @@
 }
 
 .background-section button:hover {
-  background-color: #0056b3;
+  background-color: #166fce;
 }

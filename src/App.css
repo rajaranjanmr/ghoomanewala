@@ -21,3 +21,15 @@ body {
 .content {
   flex: 1;
 }
+
+.mx_2rem {
+  margin: 0 2rem;
+}
+
+.my_2rem {
+  margin: 2rem 0;
+}
+
+.txt_algn_center {
+  text-align: center;
+}

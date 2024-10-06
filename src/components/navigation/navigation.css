@@ -8,14 +8,19 @@ a {
 }
 
 .nav {
-  padding: 1.5rem 6rem;
+  padding: 1rem 6rem;
   border-bottom: 1px solid gray;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1000;
 }
 
 .color_skyblue {
-  color: skyblue;
+  color: rgba(9, 151, 208, 0.906);
 }
 
 .nav_items {

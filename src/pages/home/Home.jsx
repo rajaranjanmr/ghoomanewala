@@ -1,6 +1,6 @@
 import React from "react";
 import { BackgroundSection, Card } from "../../components";
-import { home } from "../../data.json";
+import { home } from "../../data/home";
 import "./Home.css";
 
 const Home = () => {
@@ -9,10 +9,11 @@ const Home = () => {
       <BackgroundSection />
       <h1>Our Services</h1>
       <div className="card-container">
-        {home.map(({ image, name, description, buttonText }) => {
+        {home.map(({ image, urlKey, name, description, buttonText }) => {
           return (
             <Card
               image={image}
+              urlKey={urlKey}
               title={name}
               description={description}
               buttonText={buttonText}

@@ -1,56 +1,30 @@
 import { useState } from "react";
 import { PortalComponent, UJCard } from "../../components";
-import Bali from "../../assets/bali.jpg";
-import Sea from "../../assets/sea.jpg";
-import Gate from "../../assets/gate.jpg";
-import Raulling from "../../assets/raulling.jpg";
-import Bush from "../../assets/bush.jpg";
-import Julien from "../../assets/julien.jpg";
+import { ujData } from "../../data/uj_data";
+import { useParams } from "react-router-dom";
 import "./UpcomingJourneys.css";
 
 const UpcomingJourneys = () => {
   const [isPortalOpen, setIsPortalOpen] = useState(false);
 
+  const { journeysId } = useParams();
+  console.log(journeysId);
+
+  const { description, upcoming_journeys } = ujData[journeysId];
+
   return (
-    <section>
+    <section className="mx_2rem">
+      <p className="txt_algn_center my_2rem">{description}</p>
       <h2 className="txt_algn_center">Upcoming Journeys</h2>
-      <div className="UJ_container">
-        <UJCard
-          setIsPortalOpen={setIsPortalOpen}
-          image={Bali}
-          heading="Bali"
-          description="This is bali"
-        />
-        <UJCard
-          setIsPortalOpen={setIsPortalOpen}
-          image={Sea}
-          heading="Sea"
-          description="This is Sea"
-        />
-        <UJCard
-          setIsPortalOpen={setIsPortalOpen}
-          image={Gate}
-          heading="Gate"
-          description="This is Gate"
-        />
-        <UJCard
-          setIsPortalOpen={setIsPortalOpen}
-          image={Bush}
-          heading="Bush"
-          description="This is Bush"
-        />
-        <UJCard
-          setIsPortalOpen={setIsPortalOpen}
-          image={Julien}
-          heading="Julien"
-          description="This is Julien"
-        />
-        <UJCard
-          setIsPortalOpen={setIsPortalOpen}
-          image={Raulling}
-          heading="Raulling"
-          description="This is Raulling"
-        />
+      <div className="uj_container">
+        {upcoming_journeys.map(({ image, heading, description }) => (
+          <UJCard
+            setIsPortalOpen={setIsPortalOpen}
+            image={image}
+            heading={heading}
+            description={description}
+          />
+        ))}
       </div>
       {isPortalOpen && (
         <PortalComponent>

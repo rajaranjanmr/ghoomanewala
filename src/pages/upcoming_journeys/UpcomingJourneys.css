@@ -1,13 +1,8 @@
-.UJ_container {
+.uj_container {
   display: flex;
   gap: 2rem;
-  justify-content: space-between;
   flex-wrap: wrap;
-  margin: 2rem 1rem;
-}
-
-.txt_algn_center {
-  text-align: center;
+  margin: 2rem 0;
 }
 
 .modal-overlay {
