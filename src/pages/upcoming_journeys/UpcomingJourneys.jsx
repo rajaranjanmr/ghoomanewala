@@ -14,7 +14,7 @@ const UpcomingJourneys = () => {
 
   return (
     <section className="mx_2rem">
-      <p className="txt_algn_center my_2rem">{description}</p>
+      <p className="my_2rem">{description}</p>
       <h2 className="txt_algn_center">Upcoming Journeys</h2>
       <div className="uj_container">
         {upcoming_journeys.map(({ image, heading, description }) => (
@@ -33,7 +33,7 @@ const UpcomingJourneys = () => {
             <div className="modal-content">
               <>
                 <p>
-                  Please WhatApp to this number +91 0000000000 for more details.
+                  Please WhatApp to this number +91 9153982121 for more details.
                 </p>
                 <button
                   className="uj_modal_button"

@@ -82,14 +82,14 @@ const Footer = () => {
 
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>123 Travel Street, City, Country</p>
-          <p>
+          <p>Office Address: Kund muhalla, near Dr gp Singh hospital road - 822101.</p>
+          {/* <p>
             Email:{" "}
             <a href="mailto:support@travelwebsite.com">
               support@travelwebsite.com
             </a>
-          </p>
-          <p>Phone: +123 456 7890</p>
+          </p> */}
+          <p>Phone: +91 9153982121</p>
         </div>
       </div>
       <div className="footer-bottom">
