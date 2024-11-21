@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Services } from "./components/Services";
-import { ContactUs } from "./components/ContactUs";
+import { ContactUs } from "./components/contact_us/ContactUs";
 import { TermsAndConditions } from "./components/TermsAndConditions";
 import { AboutUs, Footer, Navigation } from "./components";
 import { Home, UpcomingJourneys } from "./pages";
@@ -10,7 +10,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="app">
-      <main className="content">
+      <main className="">
         <Router>
           <Navigation />
           <Routes>

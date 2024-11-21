@@ -3,7 +3,7 @@ a {
 }
 
 .nav {
-  padding: 1rem 6rem;
+  padding: 10px 6rem;
   border-bottom: 1px solid gray;
   display: flex;
   align-items: center;
@@ -26,4 +26,8 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.logoImg {
+  height: 3.7rem;
 }

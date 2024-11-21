@@ -1,9 +1,9 @@
-.au_bg_image {
+.cu_bg_image {
   background: url("../../assets/image_13.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
 
-.au_para {
-  margin-bottom: 2rem;
+.cu_para {
+    font-size: 1.5rem;
 }

@@ -1,12 +1,11 @@
-h1 {
-  margin-top: 3rem;
-}
-
 .home {
   padding: 1.3rem;
   text-align: center;
 }
 
+.home h1 {
+  margin-top: 3rem;
+}
 .card-container {
   display: flex;
   flex-wrap: wrap;

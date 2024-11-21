@@ -3,23 +3,15 @@
 /* Make sure the html and body take up the full height */
 html,
 body {
-  height: 100%;
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-/* Ensure the .app container fills the full height of the viewport */
-.app {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Minimum height of the viewport */
-}
 
-/* Main content takes up the remaining space */
-.content {
-  flex: 1;
+.app {
+  min-height: 100vh;
 }
 
 .mx_2rem {
@@ -32,4 +24,18 @@ body {
 
 .txt_algn_center {
   text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+}
+
+.container {
+  padding-top: 2rem;
+  margin: 0 1.3rem;
 }

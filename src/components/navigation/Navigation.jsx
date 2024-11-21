@@ -7,7 +7,7 @@ const Navigation = () => {
   return (
     <nav className="nav">
       <Link to="/">
-        <img src={Logo} alt="Ghomanewala" />
+        <img className="logoImg" src={Logo} alt="Ghomanewala" />
       </Link>
       <div className="nav_items">
         <p>

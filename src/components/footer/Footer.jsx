@@ -43,7 +43,7 @@ const Footer = () => {
           <ul className="social-links">
             <li>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=100085388623577&mibextid=ZbWKwL"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -52,29 +52,11 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/ghoomanewala_com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Instagram
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
               </a>
             </li>
           </ul>
