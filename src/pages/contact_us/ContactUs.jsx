@@ -6,7 +6,7 @@ const ContactUs = () => {
     <div className="cu_bg_image">
       <div className="overlay">
         <div className="container">
-          <h1 className="txt_algn_center">Contact Us</h1>
+          <h1 className="text_align_center">Contact Us</h1>
           <p className="cu_para">
             Office Address: Kund muhalla, near Dr gp Singh hospital road -
             822101.

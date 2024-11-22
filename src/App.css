@@ -9,7 +9,6 @@ body {
   font-style: normal;
 }
 
-
 .app {
   min-height: 100vh;
 }
@@ -22,7 +21,7 @@ body {
   margin: 2rem 0;
 }
 
-.txt_algn_center {
+.text_align_center {
   text-align: center;
 }
 

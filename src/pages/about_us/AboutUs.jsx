@@ -6,7 +6,7 @@ const AboutUs = () => {
     <div className="au_bg_image">
       <div className="overlay">
         <div className="container">
-          <h1 className="txt_algn_center">About Us</h1>
+          <h1 className="text_align_center">About Us</h1>
           <p className="au_para">
             At Ghomanewala, we believe that travel is more than just seeing new
             places—it’s about creating lasting memories, discovering cultures,
@@ -30,7 +30,9 @@ const AboutUs = () => {
             adventure. Let us take care of the details while you focus on
             enjoying the journey.
           </p>
-          <p className="au_para">Explore the world your way, with Ghomanewala.</p>
+          <p className="au_para">
+            Explore the world your way, with Ghomanewala.
+          </p>
         </div>
       </div>
     </div>

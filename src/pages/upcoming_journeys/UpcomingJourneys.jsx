@@ -14,7 +14,7 @@ const UpcomingJourneys = () => {
   return (
     <section>
       {/* <p className="my_2rem">{description}</p>
-      <h2 className="txt_algn_center">Upcoming Journeys</h2>
+      <h2 className="text_align_center">Upcoming Journeys</h2>
       <div className="uj_container">
         {upcoming_journeys.map(({ image, heading, description }) => (
           <UJCard
@@ -29,9 +29,9 @@ const UpcomingJourneys = () => {
       <div className="uj_bg_image">
         <div className="overlay">
           <div className="container">
-            <h1 className="uj_h1 txt_algn_center">Upcoming Journeys</h1>
+            <h1 className="uj_h1 text_align_center">Upcoming Journeys</h1>
             <p className="uj_para">{description}</p>
-            <div className="txt_algn_center">
+            <div className="text_align_center">
               <button
                 className="ujc_button"
                 onClick={() => {
