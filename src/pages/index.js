@@ -4,3 +4,6 @@ export { AboutUs } from "./about_us/AboutUs";
 export { ContactUs } from "./contact_us/ContactUs";
 export { TermsAndConditions } from "./TermsAndConditions";
 export { Services } from "./Services";
+export { FrequentlyAskedQuestions } from "./FrequentlyAskedQuestions";
+export { Support } from "./Support";
+export { PrivacyPolicy } from "./PrivacyPolicy";

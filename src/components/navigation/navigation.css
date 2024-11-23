@@ -29,5 +29,10 @@ a {
 }
 
 .logoImg {
-  height: 3.7rem;
+  height: 2.2rem;
+  margin-right: 10px;
+}
+
+.logoImgPic {
+  height: 2.8rem;
 }

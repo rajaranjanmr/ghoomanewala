@@ -4,8 +4,11 @@ import { Footer, Navigation } from "./components";
 import {
   AboutUs,
   ContactUs,
+  FrequentlyAskedQuestions,
   Home,
+  PrivacyPolicy,
   Services,
+  Support,
   TermsAndConditions,
   UpcomingJourneys,
 } from "./pages";
@@ -26,6 +29,12 @@ const App = () => {
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact-us" element={<ContactUs />} />
+            <Route path="/support" element={<Support />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route
+              path="/frequently-asked-questions"
+              element={<FrequentlyAskedQuestions />}
+            />
             <Route
               path="/terms-and-conditions"
               element={<TermsAndConditions />}

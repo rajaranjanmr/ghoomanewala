@@ -27,7 +27,7 @@ const TermsAndConditions = () => {
       <h2>12. Contact Information</h2>
       <p>For questions or concerns, contact us at:</p>
       <p>Phone: +91 9153982121</p>
-      <p>Email : Ghoomanewala.com@gmail.com</p>
+      <p>Email : Ghomanewala.com@gmail.com</p>
       <p>Address: : Kund muhalla, near Dr gp Singh hospital road - 822101.</p>
 
       <p>
