@@ -36,6 +36,10 @@
   text-decoration: none;
   color: #007bff;
 }
+.footer-section p a {
+  text-decoration: none;
+  color: #333;
+}
 
 .footer-section ul li a:hover {
   text-decoration: underline;

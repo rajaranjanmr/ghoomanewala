@@ -14,8 +14,8 @@ a {
   z-index: 1000;
 }
 
-.color_skyblue {
-  color: rgba(9, 151, 208, 0.906);
+.color_grey {
+  color: #333;
 }
 
 .nav_items {
@@ -29,10 +29,5 @@ a {
 }
 
 .logoImg {
-  height: 2.2rem;
-  margin-right: 10px;
-}
-
-.logoImgPic {
-  height: 2.8rem;
+  height: 2.5rem;
 }

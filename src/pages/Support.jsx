@@ -1,6 +1,7 @@
 const Support = () => {
   return (
     <section className="mx_2rem">
+      <h1 className="text_align_center">Support</h1>
       <p>Effective Date: 23.11.2024</p>
       <p>Last Updated: 23.11.24</p>
 

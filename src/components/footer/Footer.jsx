@@ -64,13 +64,16 @@ const Footer = () => {
 
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>Office Address: Kund muhalla, near Dr gp Singh hospital road - 822101.</p>
-          {/* <p>
+          <p>
+            Office Address: Kund muhalla, near Dr gp Singh hospital road -
+            822101.
+          </p>
+          <p>
             Email:{" "}
-            <a href="mailto:support@travelwebsite.com">
-              support@travelwebsite.com
+            <a href="mailto:ghoomanewala.com@gmail.com">
+              ghoomanewala.com@gmail.com
             </a>
-          </p> */}
+          </p>
           <p>Phone: +91 9153982121</p>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from '../../assets/logo.png';
-import Logo2 from '../../assets/logo_pic.jpeg';
+import Logo from "../../assets/logo.png";
 import "./navigation.css";
 
 const Navigation = () => {
@@ -9,21 +8,20 @@ const Navigation = () => {
     <nav className="nav">
       <Link to="/">
         <img className="logoImg" src={Logo} alt="Ghomanewala" />
-        <img className="logoImgPic" src={Logo2} alt="Ghomanewala_pic" />
       </Link>
       <div className="nav_items">
         <p>
-          <Link className="color_skyblue" to="/about-us">
+          <Link className="color_grey" to="/about-us">
             About Us
           </Link>
         </p>
         <p>
-          <Link className="color_skyblue" to="/services">
+          <Link className="color_grey" to="/services">
             Services
           </Link>
         </p>
         <p>
-          <Link className="color_skyblue" to="/contact-us">
+          <Link className="color_grey" to="/contact-us">
             Contact Us
           </Link>
         </p>
